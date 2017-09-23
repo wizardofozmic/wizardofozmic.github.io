@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          WizardOfOzmic
+paginate:       5
+baseurl:        ""
+url:            "https://wizardofozmic.github.io"
+long_title:     "Daily Code Tutorials"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Michael Ozoemena
+  url:          https://wizardofozmic.github.io
+  email:        theozmic@gmail.com
+
+# Gems
+gems:
+  - jekyll-paginate
+
+# Plugins
+plugins:
+  - jekyll-seo-tag

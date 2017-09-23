@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+          <ul>
+            <li><a href="https://github.com/theozmic">GitHub</a></li>
+            <li><a href="https://twitter.com/theozmic">Twitter</a></li>
+          </ul>
+        </a>
+    </div>
+  </nav>
+
+    <main>
+    <br>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.long_title }}.
+      </span>
+    </footer>
+  </body>
+</html>
